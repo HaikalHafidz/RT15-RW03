@@ -1,0 +1,31 @@
+/* Tema ringan di atas Bootstrap 5 */
+:root{
+  --bs-primary:#12355b; --bs-primary-rgb:18,53,91;
+  --bs-warning:#f4a300; --bs-warning-rgb:244,163,0;
+  --bs-body-font-family:"Figtree","Segoe UI",system-ui,sans-serif;
+  --bs-body-bg:#f6f8fb;
+}
+h1,h2,h3,h4,.navbar-brand{
+  font-family:"Bricolage Grotesque",
+  "Trebuchet MS",sans-serif;
+  font-weight:800}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+.btn-primary{--bs-btn-bg:#12355b;--bs-btn-border-color:#12355b;--bs-btn-hover-bg:#0c2542;--bs-btn-hover-border-color:#0c2542}
+.btn-warning{--bs-btn-color:#16231f}
+.text-primary{color:#12355b!important}
+.navbar{background:#12355b}
+.navbar .nav-link{color:#fff;font-weight:500}
+.navbar .nav-link:hover,.navbar .nav-link.active{color:#f4a300}
+.ph{background:#d8e1ec;object-fit:cover;width:100%}
+.carousel-item{height:min(78vh,620px);background:#12355b}
+.carousel-item img{height:100%;width:100%;object-fit:cover;opacity:.45}
+.carousel-caption{bottom:auto;top:50%;transform:translateY(-50%);text-align:left;left:8%;right:8%}
+.carousel-caption h1{font-size:clamp(2rem,5.5vw,3.8rem)}
+.stat{border-left:4px solid #f4a300;padding-left:14px}
+.stat b{display:block;font-size:2rem;font-family:"Bricolage Grotesque",sans-serif;color:#12355b}
+.gal{aspect-ratio:4/3;cursor:zoom-in;transition:transform .2s}
+.gal:hover{transform:scale(1.02)}
+.member img{aspect-ratio:1;border-radius:50%;max-width:150px}
+footer{background:#0c2542;color:#cbd6e4}
+footer a{color:#f4a300}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
