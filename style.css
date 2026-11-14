@@ -18,6 +18,7 @@ html {
   scroll-padding-top: 72px;
 }
 
+/* Placeholder / gambar umum */
 .ph {
   width: 100%;
   background: var(--surface);
@@ -142,21 +143,22 @@ h4,
 }
 
 
+/* Layanan (beranda) */
 .layanan-img {
   aspect-ratio: 16 / 10;
 }
 
-.layanan-list li {
+.check-list li {
   display: flex;
   gap: 10px;
   margin-bottom: 8px;
 }
 
-.layanan-list li:last-child {
+.check-list li:last-child {
   margin-bottom: 0;
 }
 
-.layanan-list .bi {
+.check-list .bi {
   flex: 0 0 auto;
   margin-top: 2px;
   color: var(--amber);
